@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/about', function () {
+    return view('about');
+});
+
 Route::get('/', function () {
     return view('index');
 });
@@ -27,4 +31,8 @@ Route::get('/performance', function () {
 
 Route::get('/order', function () {
     return view('order');
+});
+
+Route::get('/all-order', function () {
+    return view('all-order');
 });
