@@ -4,7 +4,6 @@
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
       <!-- Main content -->
->>>>>>> b0e9655bb6cfbde03ea80eec21defd2f0834a720
       <div class="content-header">
         <div class="container-fluid">
           <div class="row mb-2">
