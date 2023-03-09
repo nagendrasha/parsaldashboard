@@ -56,8 +56,13 @@
                 </a>
               </li>
               <li class="nav-item">
+<<<<<<< HEAD
                 <a href="#" class="nav-link">
                   <i class="far   nav-icon"></i>
+=======
+                <a href="/all-order" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+>>>>>>> b0e9655bb6cfbde03ea80eec21defd2f0834a720
                   <p>All Shipment</p>
                 </a>
               </li>
