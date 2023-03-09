@@ -50,10 +50,10 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0 count-nav">
             <li class="nav-item count-item active" >
-              <a class="nav-link count-link"  href="#">Performance Overview</a>
+              <a class="nav-link count-link"  href="/dashboard">Performance Overview</a>
             </li>
             <li class="nav-item count-item" >
-              <a class="nav-link count-link"  href="#">Revenue</a>
+              <a class="nav-link count-link"  href="/revenue">Revenue</a>
             </li>
             <li class="nav-item count-item" >
               <a class="nav-link count-link " >Order Status</a>

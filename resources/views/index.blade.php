@@ -1,16 +1,10 @@
 @extends('includes.main')
-@push('title')
-<title>Home</title>
-@endpush
-@push('name')
-<li class="nav-item d-none d-sm-inline-block">
-      <a href="index.php" class="nav-link" style="font-size: 20px; font-weight: bold;"> <i class="nav-icon fas fa-home"></i> Home</a>
-</li>
-@endpush
+
 @section('main-section')
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
       <!-- Main content -->
+>>>>>>> b0e9655bb6cfbde03ea80eec21defd2f0834a720
       <div class="content-header">
         <div class="container-fluid">
           <div class="row mb-2">
