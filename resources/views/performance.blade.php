@@ -1,5 +1,12 @@
 @extends('includes.main')
-
+@push('title')
+<title>Performance</title>
+@endpush
+@push('name')
+<li class="nav-item d-none d-sm-inline-block">
+      <a href="index.php" class="nav-link" style="font-size: 20px; font-weight: bold;"> <i class="nav-icon fas fa-home"></i> Performance</a>
+</li>
+@endpush
 @section('main-section')
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
@@ -147,9 +154,7 @@
                     </div>
                     <!-- /.d-flex -->
                   </div>
-
                 </div>
-
               </div>
             </div>
             <!-- /.col-md-6 -->

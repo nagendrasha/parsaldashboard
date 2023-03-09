@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dashboardparsal</title>
+  @stack('title')
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet"
@@ -34,9 +34,7 @@
         <li class="nav-item">
           <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
         </li>
-        <li class="nav-item d-none d-sm-inline-block">
-          <a href="index.php" class="nav-link" style="font-size: 20px; font-weight: bold;"> <i class="nav-icon fas fa-home"></i> Home</a>
-        </li>
+        @stack('name')
         <li class="nav-item d-none d-sm-inline-block">
           <a href="#" class="nav-link border border-primary rounded ">+ Create</a>
         </li>
