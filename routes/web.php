@@ -28,3 +28,7 @@ Route::get('/performance', function () {
 Route::get('/order', function () {
     return view('order');
 });
+
+Route::get('/revenue', function () {
+    return view('revenue');
+});
