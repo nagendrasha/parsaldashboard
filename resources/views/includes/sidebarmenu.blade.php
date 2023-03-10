@@ -33,7 +33,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link ">
+                <a href="/orderstatus" class="nav-link ">
                   <i class="far   nav-icon"></i>
                   <p>Order Status</p>
                 </a>
@@ -114,7 +114,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="/toolcalculator" class="nav-link">
                   <i class="far   nav-icon"></i>
                   <p>Shipment Calculator</p>
                 </a>

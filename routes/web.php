@@ -21,6 +21,8 @@ Route::get('/', function () {
     return view('index');
 });
 
+// dashboard  --
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 });
@@ -29,10 +31,21 @@ Route::get('/performance', function () {
     return view('performance');
 });
 
-Route::get('/order', function () {
-    return view('order');
-});
-
 Route::get('/revenue', function () {
     return view('revenue');
+});
+
+Route::get('/orderstatus', function () {
+    return view('orderstatus');
+});
+// dashboard end --
+// tool --
+Route::get('/toolcalculator', function () {
+    return view('toolcalculator');
+});
+// tool--
+
+
+Route::get('/order', function () {
+    return view('order');
 });

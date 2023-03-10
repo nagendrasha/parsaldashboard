@@ -18,7 +18,7 @@
   <style>
     .navbar .navbar-nav .nav-link {
       color: #000000;
-      font-size: 1.1em;
+      font-size: 1.1rem;
     }
 
     .count .count-nav #count-link:hover {
@@ -194,7 +194,7 @@
               <a class="nav-link count-link"  href="/revenue">Revenue</a>
             </li>
             <li class="nav-item count-item" >
-              <a class="nav-link count-link " >Order Status</a>
+              <a class="nav-link count-link " href="/orderstatus">Order Status</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0 " style="flex-direction: column;display: flex; color: black;">
@@ -261,6 +261,7 @@
 
                 
               </div>
+              
               <div class="row">
             <div class="col-lg-12">
               <div class="card">
