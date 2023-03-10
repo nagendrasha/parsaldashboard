@@ -73,6 +73,10 @@ Route::get('/all-order-error-shipment', function () {
 
 // order routes ends
 
+Route::get('/orders-store-orders', function () {
+    return view('orders-store-orders');
+});
+
 Route::get('/revenue', function () {
     return view('revenue');
 });
