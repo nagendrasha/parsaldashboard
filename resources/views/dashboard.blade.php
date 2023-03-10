@@ -56,7 +56,7 @@
               <a class="nav-link count-link"  href="/revenue">Revenue</a>
             </li>
             <li class="nav-item count-item" >
-              <a class="nav-link count-link " >Order Status</a>
+              <a class="nav-link count-link " href="/orderstatus" >Order Status</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0 " style="flex-direction: column;display: flex; color: black;">

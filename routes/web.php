@@ -21,6 +21,8 @@ Route::get('/', function () {
     return view('index');
 });
 
+// dashboard  --
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 });
@@ -29,6 +31,8 @@ Route::get('/performance', function () {
     return view('performance');
 });
 
+<<<<<<< HEAD
+=======
 
 // Order routes
 Route::get('/order', function () {
@@ -73,10 +77,29 @@ Route::get('/all-order-error-shipment', function () {
 
 // order routes ends
 
+<<<<<<< HEAD
 Route::get('/orders-store-orders', function () {
     return view('orders-store-orders');
 });
 
+=======
+>>>>>>> aaac33201bc686ac8a2b7bdc6459714636731abb
+>>>>>>> e0d575a8147a6b3d1edea6d47f56603a431eeb77
 Route::get('/revenue', function () {
     return view('revenue');
+});
+
+Route::get('/orderstatus', function () {
+    return view('orderstatus');
+});
+// dashboard end --
+// tool --
+Route::get('/toolcalculator', function () {
+    return view('toolcalculator');
+});
+// tool--
+
+
+Route::get('/order', function () {
+    return view('order');
 });
