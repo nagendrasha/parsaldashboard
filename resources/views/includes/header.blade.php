@@ -1,19 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   @stack('title')
 
   <!-- Google Font: Source Sans Pro -->
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="/plugins/fontawesome-free/css/all.min.css">
   <!-- IonIcons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="/dist/css/adminlte.min.css">
+
+  <!-- google icon -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+  <!-- css for navbar -->
+  <style>
+    .nv {
+      background-color: darkblue;
+    }
+
+    .nv a {
+      font-size: 16px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 800;
+    }
+  </style>
 </head>
 <!--
 `body` tag options:
@@ -103,7 +122,7 @@
     <!-- /.navbar -->
 
     <!-- Main Sidebar Container -->
-    <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <aside class="main-sidebar sidebar-dark-primary elevation-4 nv">
       <!-- Brand Logo -->
       <a href="/" class="brand-link">
         <img src="/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
@@ -123,7 +142,7 @@
           </div>
         </div>
         <!-- SidebarSearch Form -->
-        <div class="form-inline">
+        <!-- <div class="form-inline">
           <div class="input-group" data-widget="sidebar-search">
             <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
             <div class="input-group-append">
@@ -132,7 +151,7 @@
               </button>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- Sidebar Menu -->
         @include('includes.sidebarmenu')

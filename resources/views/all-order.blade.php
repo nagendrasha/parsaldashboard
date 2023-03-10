@@ -1,6 +1,6 @@
 @extends('includes.main')
 @push('title')
-<title>All Order</title>
+<title>All Orders</title>
 @endpush
 @push('name')
 <li class="nav-item d-none d-sm-inline-block">
@@ -13,12 +13,13 @@
     <style>
         .navbar .navbar-nav .nav-link {
           color: #000000;
-          font-size: 1.1em;
+          font-size: 1rem;
         }
 
         .count .count-nav #count-link:hover {
           color: #000000;
         }
+
 
         .count .count-nav .count-item {
           position: relative;
@@ -40,6 +41,7 @@
         .count .count-nav .count-item:hover::after {
           width: 100%;
         }
+
         table tr th{
             padding-left: 20px;
             font-size: 14px;
@@ -57,28 +59,28 @@
                             <a class="nav-link count-link" href="#">SEARCH</a>
                         </li>
                         <li class="nav-item count-item">
-                            <a class="nav-link count-link" href="#">NOT PICKED</a>
+                            <a class="nav-link count-link" href="/not-picked">NOT PICKED</a>
                         </li>
                         <li class="nav-item count-item">
-                            <a class="nav-link count-link" href="#">QC FAILED</a>
+                            <a class="nav-link count-link" href="/qc-faild">QC FAILED</a>
                         </li>
                         <li class="nav-item count-item">
-                            <a class="nav-link count-link" href="#">LIVE</a>
+                            <a class="nav-link count-link" href="/all-order-live">LIVE</a>
                         </li>
                         <li class="nav-item count-item">
-                            <a class="nav-link count-link" href="#">DELIVERED</a>
+                            <a class="nav-link count-link" href="/all-order-delivered">DELIVERED</a>
                         </li>
                         <li class="nav-item count-item">
-                            <a class="nav-link count-link" href="#">RETURNED</a>
+                            <a class="nav-link count-link" href="/all-order-returned">RETURNED</a>
                         </li>
                         <li class="nav-item count-item">
-                            <a class="nav-link count-link" href="#">LOST/DAMAGED</a>
+                            <a class="nav-link count-link" href="/all-order-lost-damaged">LOST/DAMAGED</a>
                         </li>
                         <li class="nav-item count-item">
-                            <a class="nav-link count-link" href="#">CANCELLED</a>
+                            <a class="nav-link count-link" href="/all-order-cancelled">CANCELLED</a>
                         </li>
                         <li class="nav-item count-item">
-                            <a class="nav-link count-link" href="#">ERROR SHIPMENT</a>
+                            <a class="nav-link count-link" href="/all-order-error-shipment">ERROR SHIPMENT</a>
                         </li>
                     </ul>
                 </div>
