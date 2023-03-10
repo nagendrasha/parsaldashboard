@@ -29,9 +29,37 @@ Route::get('/performance', function () {
     return view('performance');
 });
 
+
+// Order routes
 Route::get('/order', function () {
     return view('order');
 });
+
+Route::get('/all-order', function () {
+    return view('all-order');
+});
+
+Route::get('/not-picked', function () {
+    return view('not-picked');
+});
+
+Route::get('/qc-faild', function () {
+    return view('qc-faild');
+});
+
+Route::get('/all-order-live', function () {
+    return view('all-order-live');
+});
+
+Route::get('/all-order-delivered', function () {
+    return view('all-order-delivered');
+});
+
+Route::get('/all-order-returned', function () {
+    return view('all-order-returned');
+});
+
+// order routes ends
 
 Route::get('/revenue', function () {
     return view('revenue');

@@ -1,6 +1,6 @@
 @extends('includes.main')
 @push('title')
-<title>Order</title>
+<title>Orders</title>
 @endpush
 @push('name')
 <li class="nav-item d-none d-sm-inline-block">
