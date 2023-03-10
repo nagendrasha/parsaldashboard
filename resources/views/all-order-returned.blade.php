@@ -72,22 +72,22 @@
                     <a class="nav-link count-link" href="/qc-faild">QC FAILED</a>
                 </li>
                 <li class="nav-item count-item">
-                    <a class="nav-link count-link" href="#">LIVE</a>
+                    <a class="nav-link count-link" href="/all-order-live">LIVE</a>
                 </li>
                 <li class="nav-item count-item">
-                    <a class="nav-link count-link" href="#">DELIVERED</a>
+                    <a class="nav-link count-link" href="/all-order-delivered">DELIVERED</a>
                 </li>
                 <li class="nav-item count-item">
-                    <a class="nav-link count-link" href="#">RETURNED</a>
+                    <a class="nav-link count-link" href="/all-order-returned">RETURNED</a>
                 </li>
                 <li class="nav-item count-item">
-                    <a class="nav-link count-link" href="#">LOST/DAMAGED</a>
+                    <a class="nav-link count-link" href="/all-order-lost-damaged">LOST/DAMAGED</a>
                 </li>
                 <li class="nav-item count-item">
-                    <a class="nav-link count-link" href="#">CANCELLED</a>
+                    <a class="nav-link count-link" href="/all-order-cancelled">CANCELLED</a>
                 </li>
                 <li class="nav-item count-item">
-                    <a class="nav-link count-link" href="#">ERROR SHIPMENT</a>
+                    <a class="nav-link count-link" href="/all-order-error-shipment">ERROR SHIPMENT</a>
                 </li>
             </ul>
             <form action="#" class="datepick">
@@ -157,7 +157,7 @@
             <div class="col-lg-4">
                 <form class="form-inline">
                     <input class="form-control input-sm w-100" type="search" placeholder="Select Courier"
-                        aria-label="Search"/>
+                        aria-label="Search" />
                 </form>
             </div>
         </div>

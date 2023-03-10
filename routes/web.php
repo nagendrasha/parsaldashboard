@@ -59,6 +59,18 @@ Route::get('/all-order-returned', function () {
     return view('all-order-returned');
 });
 
+Route::get('/all-order-lost-damaged', function () {
+    return view('all-order-lost-damaged');
+});
+
+Route::get('/all-order-cancelled', function () {
+    return view('all-order-cancelled');
+});
+
+Route::get('/all-order-error-shipment', function () {
+    return view('all-order-error-shipment');
+});
+
 // order routes ends
 
 Route::get('/revenue', function () {
