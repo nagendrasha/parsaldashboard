@@ -101,3 +101,32 @@ Route::get('/serviceable', function () {
 Route::get('/order', function () {
     return view('order');
 });
+
+Route::get('/orders-channel-orders', function () {
+    return view('orders-channel-orders');
+});
+
+Route::get('/orders-already-fulfilled', function () {
+    return view('orders-already-fulfilled');
+});
+
+Route::get('/orders-error-orders', function () {
+    return view('orders-error-orders');
+});
+
+Route::get('/orders-uploads-orders', function () {
+    return view('orders-uploads-orders');
+});
+
+
+// Wallets Route
+Route::get('/wallet-overview', function () {
+    return view('wallet-overview');
+});
+
+
+
+// Wallets Route ends
+
+
+

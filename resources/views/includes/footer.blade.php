@@ -1,6 +1,6 @@
 <!-- Main Footer -->
 <footer class="main-footer text-center">
-  <strong>Copyright &copy; 2022 <a href="https://adminlte.io">dashboard.parsal.in</a>.</strong>
+  <strong>Copyright &copy; 2022 <a href="/" style="color: #FC6A03;">dashboard.parsal.in</a>.</strong>
   All rights reserved.
 </footer>
 </div>

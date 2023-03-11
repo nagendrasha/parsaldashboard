@@ -1,6 +1,13 @@
 @extends('includes.main')
 
 @section('main-section')
+
+<style>
+  .head{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+  }
+</style>
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
       <!-- Main content -->
@@ -24,7 +31,7 @@
       <!-- Main content -->
       <div class="content">
         <div class="container-fluid">
-          <h3 class="text-primary">Start shipping today with 2 simple steps!</h3>
+          <h3 class="head">Start shipping today with 2 simple steps!</h3>
           <div class="row">
             <div class="col-lg-6">
               <div class="card">

@@ -87,8 +87,8 @@
       <div class="content">
         <div class="container-fluid">
 
-            
-              
+
+
 
 
           <div class="row">
@@ -109,9 +109,9 @@
                           </li>
                         </ul>
                       </div>
-                      
+
                     </nav>
-                    
+
                   </div>
                   <div class="row">
                     <div class="col-4 text-center " style="border-right: 1px solid #a8a1a1;">
@@ -131,9 +131,9 @@
                   </div>
                 </div>
 
-                
+
               </div>
-              
+
               <div class="row">
             <div class="col-lg-12">
               <div class="card">
@@ -153,9 +153,9 @@
                           </li>
                         </ul>
                       </div>
-                      
+
                     </nav>
-                    
+
                   </div>
 
                     <div class="row">
@@ -178,11 +178,11 @@
               </div>
             </div>
             <!-- /.col-md-6 -->
-            
+
             <!-- /.col-md-6 -->
           </div>
             </div>
-            
+
             <!-- /.col-md-6 -->
             <div class="col-lg-4">
               <div class="card">
@@ -223,7 +223,7 @@
           </div>
           <!-- /.row -->
 
-          
+
         </div>
         <!-- /.container-fluid -->
       </div>
@@ -254,7 +254,7 @@
       </div>
       <!-- /.d-flex -->
     </div>
-    
+
 
     <!-- Control Sidebar -->
     <aside class="control-sidebar control-sidebar-dark">

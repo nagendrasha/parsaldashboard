@@ -1,9 +1,26 @@
 <!-- Sidebar Menu -->
 
 <style>
+  .nv a p {
+    font-size: 16px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+  }
 
+  .material-symbols-outlined {
+    color: white;
+  }
+
+  .right fas fa-angle-left {
+    color: white;
+  }
+
+  i {
+    color: white;
+  }
 </style>
-<nav class="mt-2 nv" style="color: white;">
+<nav class="mt-2" style="color: white;">
   <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
     <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
@@ -16,7 +33,7 @@
       </a>
     </li>
     <li class="nav-item menu-open">
-      <a href="#" class="nav-link active">
+      <a href="#" class="nav-link">
         <i class="nav-icon fas fa-tachometer-alt"></i>
         <p>
           Dashboard
@@ -79,7 +96,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">
+          <a href="/orders-store-orders" class="nav-link">
             <span class="material-symbols-outlined">
               local_convenience_store
             </span>
@@ -87,7 +104,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">
+          <a href="/orders-channel-orders" class="nav-link">
             <span class="material-symbols-outlined">
               add_shopping_cart
             </span>
@@ -107,19 +124,25 @@
       <ul class="nav nav-treeview">
         <li class="nav-item">
           <a href="" class="nav-link">
-            <i class="far   nav-icon"></i>
+            <span class="material-symbols-outlined">
+              account_balance_wallet
+            </span>
             <p>Recharge</p>
           </a>
         </li>
         <li class="nav-item">
           <a href="#" class="nav-link">
-            <i class="far   nav-icon"></i>
+            <span class="material-symbols-outlined">
+              update
+            </span>
             <p>Deducation History</p>
           </a>
         </li>
         <li class="nav-item">
           <a href="#" class="nav-link">
-            <i class="far   nav-icon"></i>
+            <span class="material-symbols-outlined">
+              history_toggle_off
+            </span>
             <p>Transaction History</p>
           </a>
         </li>
@@ -196,3 +219,5 @@
       </a>
     </li>
     <!-- /.sidebar-menu -->
+  </ul>
+</nav>
