@@ -72,13 +72,9 @@
                 <input type="date" id="placedate" name="date">
             </form>
         </div>
-        
     </nav>
-    <div class="row text-center border-0 bg-light">
-            
-            
+    <div class="row text-center border-0 bg-light">  
     </div>
-
     <div class="row">
         <div class="col-sm m-2" style="padding: 0rem 1.1rem;" >
           <div class="card">
@@ -87,35 +83,26 @@
                     <span><p style="font-size:1.1rem; ">Total Revenue</p></span>
                     <p  style="font-size:1.3rem; color:blue; font-weight:bold; ">0</p>
                     <button type="button" class="btn btn-primary " style="border-radius: 35%;">0 % </button>
-
                 </div>
                 <div class="col-lg " style="border-right: 1px solid #a8a1a1;">
                     <span><p style="font-size:1.1rem; ">Not Picked</p></span>
                     <p  style="font-size:1.3rem; color:blue; font-weight:bold; ">0</p>
                     <button type="button" class="btn btn-primary " style="border-radius: 35%;">0 % </button>
-
-
                 </div>
                 <div class="col-lg " style="border-right: 1px solid #a8a1a1;">
                     <span><p style="font-size:1.1rem; ">Live</p></span>
                     <p  style="font-size:1.3rem; color:blue; font-weight:bold; ">0</p>
                     <button type="button" class="btn btn-primary " style="border-radius: 35%;">0 % </button>
-
-
                 </div>
                 <div class="col-lg " style="border-right: 1px solid #a8a1a1;">
                     <span><p style="font-size:1.1rem; ">Delivered </p></span>
                     <p  style="font-size:1.3rem; color:blue; font-weight:bold; ">0</p>
                     <button type="button" class="btn btn-primary " style="border-radius: 35%;">0 % </button>
-
-
                 </div>
                 <div class="col-lg " style="border-right: 1px solid #a8a1a1;">
                     <span><p style="font-size:1.1rem; ">RTO</p></span>
                     <p  style="font-size:1.3rem; color:blue; font-weight:bold; ">0</p>
                     <button type="button" class="btn btn-primary " style="border-radius: 35%;">0 % </button>
-
-
                 </div>
                 <div class="col-lg " style="border-right: 1px solid #a8a1a1;">
                     <span><p style="font-size:1.1rem; ">RTD</p></span>
