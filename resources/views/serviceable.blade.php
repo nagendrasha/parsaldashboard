@@ -239,72 +239,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-5">
-                <div class="card">
-                    <div class="card-body">
-                        <p style="font-size:1.2rem; color: darkblue; font-weight: bold;">Shipment rate of your order</p>
-                        <p class="card-text">Result is based on your Cheapest Rule</p>
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-6">
-                                    <p style="color:rgb(81, 81, 176)">Delivery Charges - Zone A </p>
-                                    <h4 style="color: darkblue;">₹ 00.00</h4>
-                                    <p>Return Charges - ₹ 00.00</p>
-                                </div>
-                                <div class="col-6">
-                                    <img src="./img/deliveryboy.png" alt="" width="100%">
-                                </div>
-
-
-                            </div>
-                        </div>
-                        <p style="color:rgb(81, 81, 176)">Latest Offers </p>
-                        <p style="color: darkblue; font-weight: bold;">₹ Shadowfax</p>
-                        <p>View other courier’s rate details in below table </p>
-                        <div class="row " style="background-color: orange ; padding: 0.5rem;">
-                            <div class="col-6 text-light">
-                                <h4>Latest Offers</h4>
-                                <p style="font-size: 0.7rem;">Pay ₹300/- & get ₹600/- in your PICKRR wallet. 100%
-                                    cashback offer.</p>
-                                <p style="font-size: 0.7rem;">Use code:'PICKRR300' </p>
-                                <button type="button" class="btn btn-light">Recharge Now</button>
-                                <p style="font-size: 0.8rem;">*Terms and condition </p>
-                            </div>
-                            <div class="col-6">
-                                <img src="./img/offer.png" alt="" width="80%">
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                </div>
-            </div>
+            
 
         </div>
     </div>
 
-    @include('courier')
-
-
-
-
-        <script>
-            function up(max) {
-                document.getElementById("myNumber").value = parseInt(document.getElementById("myNumber").value) + 1;
-                if (document.getElementById("myNumber").value >= parseInt(max)) {
-                    document.getElementById("myNumber").value = max;
-                }
-            }
-            function down(min) {
-                document.getElementById("myNumber").value = parseInt(document.getElementById("myNumber").value) - 1;
-                if (document.getElementById("myNumber").value <= parseInt(min)) {
-                    document.getElementById("myNumber").value = min;
-                }
-            }
-
-
-        </script>
+   
 
         <!-- /.content-wrapper -->
 

@@ -1,20 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('includes.main')
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dashboardparsal</title>
+@push('title')
+<title>dashboard</title>
+@endpush
+@push('name')
+<li class="nav-item d-none d-sm-inline-block">
+      <a href="index.php" class="nav-link" style="font-size: 20px; font-weight: bold;"> <i class="nav-icon fas fa-home"></i> dashboard</a>
+</li>
+@endpush
 
-  <!-- Google Font: Source Sans Pro -->
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-  <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="/plugins/fontawesome-free/css/all.min.css">
-  <!-- IonIcons -->
-  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-  <!-- Theme style -->
-  <link rel="stylesheet" href="/dist/css/adminlte.min.css">
+@section('main-section')
+<!-- Content Wrapper. Contains page content -->
+
   <style>
     .navbar .navbar-nav .nav-link {
       color: #000000;
@@ -59,125 +56,6 @@
 
 <body class="hold-transition sidebar-mini">
   <div class="wrapper">
-    <!-- Navbar -->
-    <nav class="main-header navbar navbar-expand navbar-white navbar-light  ">
-      <!-- Left navbar links -->
-      <ul class="navbar-nav ">
-        <li class="nav-item">
-          <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
-        </li>
-        <li class="nav-item d-none d-sm-inline-block">
-          <a href="/" class="nav-link" style="font-size: 20px; font-weight: bold;"> <i
-              class="nav-icon fas fa-home"></i> Dashboard</a>
-        </li>
-        <li class="nav-item d-none d-sm-inline-block">
-          <a href="#" class="nav-link border border-primary rounded">+ Create</a>
-        </li>
-      </ul>
-      <!-- Right navbar links -->
-      <ul class="navbar-nav ml-auto">
-        <!-- Navbar Search -->
-        <li class="nav-item">
-          <a class="nav-link" data-widget="navbar-search" href="#" role="button">
-            <i class="fas fa-search"></i>
-          </a>
-          <div class="navbar-search-block">
-            <form class="form-inline">
-              <div class="input-group input-group-sm">
-                <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
-                <div class="input-group-append">
-                  <button class="btn btn-navbar" type="submit">
-                    <i class="fas fa-search"></i>
-                  </button>
-                  <button class="btn btn-navbar" type="button" data-widget="navbar-search">
-                    <i class="fas fa-times"></i>
-                  </button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </li>
-        <!-- Notifications Dropdown Menu -->
-        <li class="nav-item dropdown">
-          <a class="nav-link" data-toggle="dropdown" href="#">
-            <i class="far fa-bell"></i>
-          </a>
-          <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-            <span class="dropdown-item dropdown-header">15 Notifications</span>
-            <div class="dropdown-divider"></div>
-            <a href="#" class="dropdown-item">
-              <i class="fas fa-envelope mr-2"></i> 4 new messages
-              <span class="float-right text-muted text-sm">3 mins</span>
-            </a>
-            <div class="dropdown-divider"></div>
-            <a href="#" class="dropdown-item">
-              <i class="fas fa-users mr-2"></i> 8 friend requests
-              <span class="float-right text-muted text-sm">12 hours</span>
-            </a>
-            <div class="dropdown-divider"></div>
-            <a href="#" class="dropdown-item">
-              <i class="fas fa-file mr-2"></i> 3 new reports
-              <span class="float-right text-muted text-sm">2 days</span>
-            </a>
-            <div class="dropdown-divider"></div>
-            <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-widget="fullscreen" href="#" role="button">
-            <i class="fas fa-expand-arrows-alt"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
-            <i class="fas fa-th-large"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <!-- /.navbar -->
-
-    <!-- Main Sidebar Container -->
-    <aside class="main-sidebar sidebar-dark-primary elevation-4">
-      <!-- Brand Logo -->
-      <a href="index.html" class="brand-link">
-        <img src="/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
-          style="opacity: .8">
-        <span class="brand-text font-weight-light">Dashboardparsal</span>
-      </a>
-
-      <!-- Sidebar -->
-      <div class="sidebar">
-        <!-- Sidebar user panel (optional) -->
-        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-          <div class="image">
-            <img src="/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
-          </div>
-          <div class="info">
-            <a href="#" class="d-block">Altaf Khan</a>
-          </div>
-        </div>
-
-        <!-- SidebarSearch Form -->
-        <div class="form-inline">
-          <div class="input-group" data-widget="sidebar-search">
-            <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
-            <div class="input-group-append">
-              <button class="btn btn-sidebar">
-                <i class="fas fa-search fa-fw"></i>
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Sidebar Menu -->
-        @include('includes.sidebarmenu')
-
-        <!-- /.sidebar-menu -->
-      </div>
-      <!-- /.sidebar -->
-    </aside>
-
     <div class="content-wrapper">
       <!-- Content Header (Page header) -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light  count">
@@ -197,16 +75,10 @@
               <a class="nav-link count-link " href="/orderstatus">Order Status</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0 " style="flex-direction: column;display: flex; color: black;">
-            <h5>Placed Date</h5>
-            <a href="#"><button type="button" class="btn btn-outline-secondary">3/7/2023 - 4/3/2023
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                  class="bi bi-calendar" viewBox="0 0 16 16">
-                  <path
-                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
-                </svg></button>
-            </a>
-          </form>
+          <form action="#" class="datepick">
+                <label for="placed-date">Placed Date</label>
+                <input type="date" id="placedate" name="date">
+            </form>
         </div>
       </nav>
       <!-- /.content-header -->
@@ -232,7 +104,7 @@
                       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 count-nav">
                           <li class="nav-item count-item active" >
-                            <a class="nav-link count-link  text-bold" style="font-size: 1.3rem; color: darkblue; "  href="/dashboard">Revenue Report
+                            <a class="nav-link count-link  text-bold" style="font-size: 1.3rem; color: darkblue; " >Revenue Report
                             </a>
                           </li>
                         </ul>
@@ -276,7 +148,7 @@
                       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 count-nav">
                           <li class="nav-item count-item active" >
-                            <a class="nav-link count-link  text-bold" style="font-size: 1.3rem; color: darkblue; "  href="/dashboard">
+                            <a class="nav-link count-link  text-bold" style="font-size: 1.3rem; color: darkblue;">
                             COD vs Prepaid Revenue </a>
                           </li>
                         </ul>
@@ -413,6 +285,4 @@
   <script src="dist/js/demo.js"></script>
   <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
   <script src="dist/js/pages/dashboard3.js"></script>
-</body>
-
-</html>
+@endsection

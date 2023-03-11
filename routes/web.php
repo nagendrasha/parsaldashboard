@@ -92,6 +92,10 @@ Route::get('/orderstatus', function () {
 Route::get('/toolcalculator', function () {
     return view('toolcalculator');
 });
+Route::get('/serviceable', function () {
+    return view('serviceable');
+});
+
 // tool--
 
 Route::get('/order', function () {

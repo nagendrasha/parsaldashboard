@@ -41,7 +41,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link ">
+          <a href="/orderstatus" class="nav-link ">
             <span class="material-symbols-outlined">
               location_home
             </span>
@@ -135,7 +135,7 @@
       </a>
       <ul class="nav nav-treeview">
         <li class="nav-item">
-          <a href="#" class="nav-link">
+          <a href="/toolcalculator" class="nav-link">
             <span class="material-symbols-outlined">
               calculate
             </span>
@@ -143,7 +143,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">
+          <a href="/serviceable" class="nav-link">
             <span class="material-symbols-outlined">
               rss_feed
             </span>
