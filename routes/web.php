@@ -124,9 +124,37 @@ Route::get('/wallet-overview', function () {
     return view('wallet-overview');
 });
 
+Route::get('/wallet-deduction-history', function () {
+    return view('wallet-deduction-history');
+});
 
+Route::get('/wallet-transaction-history', function () {
+    return view('wallet-transaction-history');
+});
+
+Route::get('/wallet-transaction-history', function () {
+    return view('wallet-transaction-history');
+});
 
 // Wallets Route ends
 
+
+Route::get('/all-channel-integrations', function () {
+    return view('all-channel-integrations');
+});
+
+// Finance section routes
+Route::get('/manage-billing-invoice', function () {
+    return view('manage-billing-invoice');
+});
+
+Route::get('/manage-cod-remittance', function () {
+    return view('manage-cod-remittance');
+});
+
+
+
+
+// Finance section route end
 
 

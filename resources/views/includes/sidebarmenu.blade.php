@@ -114,7 +114,7 @@
       </ul>
     </li>
     <li class="nav-item">
-      <a href="#" class="nav-link">
+      <a href="/wallet-overview" class="nav-link">
         <i class="nav-icon fas fa-wallet"></i>
         <p>
           Wallet
@@ -123,7 +123,7 @@
       </a>
       <ul class="nav nav-treeview">
         <li class="nav-item">
-          <a href="" class="nav-link">
+          <a href="/wallet-overview" class="nav-link">
             <span class="material-symbols-outlined">
               account_balance_wallet
             </span>
@@ -131,7 +131,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">
+          <a href="wallet-deduction-history" class="nav-link">
             <span class="material-symbols-outlined">
               update
             </span>
@@ -139,7 +139,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-link">
+          <a href="/wallet-transaction-history" class="nav-link">
             <span class="material-symbols-outlined">
               history_toggle_off
             </span>
@@ -211,12 +211,68 @@
       </ul>
     </li>
     <li class="nav-item">
-      <a href="#" class="nav-link">
-        <i class="nav-icon fas fa-book"></i>
+      <a href="/all-channel-integrations" class="nav-link">
+        <i class="nav-icon fas fa-link"></i>
         <p>
           Integration
         </p>
       </a>
+    </li>
+
+    <li class="nav-item">
+      <a href="/manage-billing-invoice" class="nav-link">
+        <span class="material-symbols-outlined">
+          post_add
+        </span>
+        <p>
+          Finance
+          <i class="fas fa-angle-left right"></i>
+        </p>
+      </a>
+      <ul class="nav nav-treeview">
+        <li class="nav-item">
+          <a href="/manage-billing-invoice" class="nav-link">
+            <span class="material-symbols-outlined">
+              post_add
+            </span>
+            <p>
+              Invoice
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="/serviceable" class="nav-link">
+            <span class="material-symbols-outlined">
+              rss_feed
+            </span>
+            <p>COD Remittance</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="/serviceable" class="nav-link">
+            <span class="material-symbols-outlined">
+              rss_feed
+            </span>
+            <p>Rate Card</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="/serviceable" class="nav-link">
+            <span class="material-symbols-outlined">
+              rss_feed
+            </span>
+            <p>Performa Invoice</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="/serviceable" class="nav-link">
+            <span class="material-symbols-outlined">
+              rss_feed
+            </span>
+            <p>COD Remittance</p>
+          </a>
+        </li>
+      </ul>
     </li>
     <!-- /.sidebar-menu -->
   </ul>

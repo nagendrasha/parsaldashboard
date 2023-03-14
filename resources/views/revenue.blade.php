@@ -5,7 +5,7 @@
 @endpush
 @push('name')
 <li class="nav-item d-none d-sm-inline-block">
-      <a href="index.php" class="nav-link" style="font-size: 20px; font-weight: bold;"> <i class="nav-icon fas fa-home"></i> dashboard</a>
+      <a href="#" class="nav-link text-light" style="font-size: 20px; font-weight: bold;"> <i class="nav-icon fas fa-home"></i> dashboard</a>
 </li>
 @endpush
 
