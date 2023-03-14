@@ -12,6 +12,7 @@
 
 @section('main-section')
 <!-- Content Wrapper. Contains page content -->
+<<<<<<< HEAD
 <div class="content-wrapper">
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light  count">
@@ -35,6 +36,13 @@
 
 </div>
 
+=======
+
+
+<div class="content-wrapper">
+
+</div>
+>>>>>>> e98512e2cbc20f3e425c67254a1dc0597fb46318
 
 
         <!-- /.content-wrapper -->
